@@ -4,6 +4,35 @@
 This is a personal portfolio website that showcases my profile, technical skills, and project work using modern HTML and CSS. The goal of this project is to present my work in a clean, professional, and responsive design.
 
 ---
+## 🎯 Project Objectives
+
+The primary objectives of this portfolio website project are as follows:
+
+### 1. **Showcase Personal and Professional Information**
+- To create an online presence where potential employers or collaborators can learn more about me.
+- Include detailed sections on who I am, what I do, and how I can be contacted.
+
+### 2. **Demonstrate Technical Skills**
+- Highlight key programming and web development skills using progress bars and visual indicators.
+- Ensure that the design and code quality reflect my understanding of front-end development best practices.
+
+### 3. **Display Key Projects**
+- Create a dedicated section to list and describe my completed academic and personal projects.
+- Each project card should include a clear title and a short description of its functionality, purpose, or technology used.
+
+### 4. **Build a Responsive Design**
+- Make sure the website works well on all device sizes including desktops, tablets, and smartphones.
+- Use responsive layout techniques like Flexbox and media queries.
+
+### 5. **Enable Easy Updates and Maintenance**
+- Structure HTML and CSS in a clean, modular way to make future updates and additions easy.
+- Ensure content such as skills or project descriptions can be updated without restructuring the whole site.
+
+### 6. **Host via GitHub Pages**
+- Deploy the site for free using GitHub Pages to make it publicly accessible.
+- Gain experience with version control and cloud deployment using Git and GitHub.
+
+---
 
 ## 📁 Project Overview
 
@@ -133,11 +162,71 @@ The `main.css` file contains all the custom styles to make the site visually app
 - Together, they create a responsive, user-friendly portfolio site.
 
 ---
+# 🌐 Understanding GitHub Pages
+
+## 📌 What is GitHub Pages?
+
+GitHub Pages is a **free static site hosting service** offered by GitHub. It allows you to publish a website directly from a GitHub repository. It is especially useful for:
+- Hosting personal portfolios
+- Documentation for projects
+- Resumes
+- Static HTML/CSS/JavaScript websites
+
+You don’t need any external hosting service or backend server to use GitHub Pages.
+
+---
+
+## ⚙️ How Does GitHub Pages Work?
+
+GitHub Pages works by taking the HTML, CSS, and JavaScript files from your GitHub repository and serving them as a static website. Here's how it functions:
+
+1. **Repository as Source**
+   - You use a GitHub repository as the source of your website's code.
+   - The repository can be either public or private (with GitHub Pro for private Pages).
+
+2. **Branch and Folder Selection**
+   - GitHub Pages allows you to choose which branch and folder to publish from:
+     - Commonly, the `main` or `master` branch.
+     - Folder options: root (`/`) or `/docs`.
+
+3. **Automatic Publishing**
+   - Once configured, GitHub automatically builds your site and hosts it at:
+     ```
+     https://<username>.github.io/<repository-name>/
+     ```
+
+---
+
+## 🪜 Step-by-Step Setup
+
+1. **Create a GitHub Repository**
+   - Name it something relevant (e.g., `portfolio`).
+   - Add your project files (`index.html`, `style.css`, etc.).
+
+2. **Push Your Code to GitHub**
+   - Use Git or GitHub Desktop to upload your files.
+
+3. **Enable GitHub Pages**
+   - Go to the **Settings** tab of your repo.
+   - Scroll to the **Pages** section (left sidebar).
+   - Choose:
+     - Source: `main` branch
+     - Folder: `/ (root)` or `/docs`
+   - Click **Save**.
+
+4. **Access Your Site**
+   - After a few seconds, GitHub will provide a live link to your website.
+   - Example: `https://username.github.io/portfolio/`
+
+---
 
 ## ✅ Final Notes
 
 - You can edit `index.html` to change content (bio, skills, projects).
 - Customize colors, spacing, or fonts by editing `main.css`.
+
+---
+
 ## 📬 Contact
 
 - **Name:** Akshaya Singu  
